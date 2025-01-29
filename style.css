@@ -1,0 +1,145 @@
+/* Styles */
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(background.jpg.png);
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container */
+.container {
+    background-color: #d8b2d6;
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 0 5px 15px #500250;
+    text-align: center;
+    width: 300px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+label {
+    display:flex;
+    margin: 10px 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+}
+
+select {
+    width: 105%;
+    padding: 8px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 12px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 12px;
+}
+
+/* Buttons */
+button.calculate {
+    width: 45%;
+    padding: 5px;
+    background-color: #500250;
+    color: rgb(235, 227, 235);
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    gap: 3px;
+    align-items: center;
+    transition: transform 0.2s ease, background-color 0.3s ease;
+    display-button: flex;
+    margin-top: 15px;
+}
+
+button.reset {
+    width: 45%;
+    padding: 5px;
+    background-color: #000;
+    color: rgb(235, 227, 235);
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    gap: 3px;
+    align-items: center;
+    transition: transform 0.2s ease, background-color 0.3s ease;
+    display-button: flex;
+    margin-top: 15px;
+}
+
+button:hover {
+    background-color: #6b4d6a;
+}
+
+/* Result */
+.result {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+#bmi-result {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ad00fd;
+    border: 1px solid #500250;
+}
+
+#comment {
+    font-size: 16px;
+    color: #ad00fd;
+    border-image: linear-gradient(to right, red, blue) 1;
+}
+
+.health-risks {
+    margin-top: 18px;
+    font-weight: bold;
+}
+
+#health-risks {
+    font-size: 14px;
+    color: #500250;
+    border-image: linear-gradient(to right, red, blue) 1;
+}
+
+.food-recommendations {
+    margin-top: 18px;
+    font-weight: bold;
+}
+
+#food-recommendations {
+    font-size: 14px;
+    color: #500250;
+    border-image: linear-gradient(to right, red, blue) 1;
+}
+
+/*Footer */
+footer {
+    background-color: #5e2b97;
+    color: white;
+    text-align: center;
+    padding: 0px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 10px;
+}
